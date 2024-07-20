@@ -1,0 +1,25 @@
+.statistics {
+  margin: 0 6.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: rgba(61, 84, 77, 0.24);
+
+  padding: 4rem;
+  border-radius: 2rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    p {
+      font-size: 1rem;
+      color: #2bb32a;
+    }
+  }
+}
