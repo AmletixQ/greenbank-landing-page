@@ -1,0 +1,12 @@
+.personalize {
+  padding: 0 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}

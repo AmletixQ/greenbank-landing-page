@@ -15,7 +15,7 @@ const Heading = () => {
           Discover the power of our secure and rewarding credit cards. Explore
           our range of credit cards and take control of your finances today.
         </p>
-        <Button intent={"filled"} className="heading-button">
+        <Button intent={"filled"}>
           Get Started
           <img src={Arrow} alt="Arrow" />
         </Button>
