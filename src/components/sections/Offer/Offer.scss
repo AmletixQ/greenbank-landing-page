@@ -1,0 +1,34 @@
+.offer {
+  padding: 0 6.25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    .block {
+      display: flex;
+      gap: 1.5rem;
+
+      .icon-container {
+        width: 4rem;
+        height: 4rem;
+        padding: 1rem;
+
+        border-radius: 1.5rem;
+        background-color: var(--primary-500);
+      }
+
+      .info-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  }
+}
