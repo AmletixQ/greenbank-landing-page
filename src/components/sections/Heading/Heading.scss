@@ -1,0 +1,48 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6.25rem;
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    p {
+      width: 28rem;
+    }
+
+    .heading-button {
+      width: fit-content;
+
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .active-users {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .users {
+        width: 7.5rem;
+        position: relative;
+        display: flex;
+
+        img {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+
+          &:nth-child(2) {
+            left: calc(48px * 0.75);
+          }
+          &:nth-child(3) {
+            left: calc(48px * 1.5);
+          }
+        }
+      }
+    }
+  }
+}

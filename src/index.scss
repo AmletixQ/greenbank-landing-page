@@ -17,6 +17,10 @@
   color: var(--primary-200);
 }
 
+html {
+  font-size: 16px;
+}
+
 h1 {
   font-size: 4rem;
 }
@@ -34,4 +38,16 @@ h5 {
 }
 h6 {
   font-size: 1.5rem;
+}
+.dark-text {
+  color: var(--primary-300);
+}
+.bold {
+  font-weight: bold;
+}
+.average-text {
+  font-size: 1.25rem;
+}
+.small-text {
+  font-size: 1rem;
 }

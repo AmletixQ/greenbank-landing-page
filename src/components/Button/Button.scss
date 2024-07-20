@@ -1,0 +1,29 @@
+.button {
+  cursor: pointer;
+
+  background-color: transparent;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  border: 0;
+  border-radius: 4rem;
+
+  transition: all 200ms;
+
+  &.filled {
+    padding: 1rem 2rem;
+    background-color: #2bb32a;
+  }
+
+  &.transparent {
+    padding: 0.75rem 2rem;
+    color: #2bb32a;
+    border: 2px solid #2bb32a;
+  }
+
+  &:hover {
+    border-color: white;
+    color: white;
+  }
+}
