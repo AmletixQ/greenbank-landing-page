@@ -5,6 +5,7 @@ import Partners from "components/sections/Partners/Partners";
 import "./App.scss";
 import Offer from "components/sections/Offer/Offer";
 import Personalize from "components/sections/Personalize/Personalize";
+import Perfect from "components/sections/Perfect/Perfect";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Partners />
       <Offer />
       <Personalize />
+      <Perfect />
     </main>
   );
 };
