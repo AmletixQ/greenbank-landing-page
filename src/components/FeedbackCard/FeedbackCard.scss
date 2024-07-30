@@ -1,0 +1,47 @@
+.feedback-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
+
+  background-color: rgba(39, 50, 47, 0.24);
+  border-radius: 2rem;
+
+  padding: 3rem 1.5rem;
+
+  .quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 2rem;
+
+    background-color: var(--primary-500);
+    border-radius: 100%;
+
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .user-info {
+      display: flex;
+      flex-direction: column;
+
+      h6 {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

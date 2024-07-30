@@ -6,6 +6,7 @@ import "./App.scss";
 import Offer from "components/sections/Offer/Offer";
 import Personalize from "components/sections/Personalize/Personalize";
 import Perfect from "components/sections/Perfect/Perfect";
+import Feedback from "components/sections/Feedback/Feedback";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Offer />
       <Personalize />
       <Perfect />
+      <Feedback />
     </main>
   );
 };
