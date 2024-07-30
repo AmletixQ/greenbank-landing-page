@@ -1,0 +1,32 @@
+.accordion-item {
+  border-bottom: 1px solid white;
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style: none;
+
+    &::after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      content: url("../../../assets/icons/plus.svg");
+      font-size: 1rem;
+    }
+  }
+
+  &[open] {
+    summary::after {
+      content: url("../../../assets/icons/minus.svg");
+    }
+  }
+
+  p {
+    padding-bottom: 1rem;
+  }
+}
