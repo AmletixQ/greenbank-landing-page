@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  background-color: rgba($color: #283430, $alpha: 0.24);
+  padding: 3.75rem 6.25rem 2.1875rem 6.25rem;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+    .footer-logo {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+
+      .logo {
+        justify-content: start;
+      }
+    }
+  }
+
+  .policy-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+  }
+}
