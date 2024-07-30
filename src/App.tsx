@@ -7,6 +7,8 @@ import Personalize from "components/sections/Personalize/Personalize";
 import Perfect from "components/sections/Perfect/Perfect";
 import Feedback from "components/sections/Feedback/Feedback";
 import FAQ from "components/sections/FAQ/FAQ";
+import Manage from "components/sections/Manage/Manage";
+import Footer from "components/sections/Footer/Footer";
 import "./App.scss";
 
 const App = () => {
@@ -21,6 +23,8 @@ const App = () => {
       <Perfect />
       <Feedback />
       <FAQ />
+      <Manage />
+      <Footer />
     </main>
   );
 };

@@ -1,10 +1,13 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 8rem;
 
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--primary-100);
   background-image: url(./assets/bg.png);
+
+  header, section {
+    margin-bottom: 8rem !important;
+  }
 }
