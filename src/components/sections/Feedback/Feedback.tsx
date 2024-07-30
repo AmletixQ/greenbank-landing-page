@@ -1,15 +1,9 @@
 import Icon1 from "assets/icons/Ellipse-1.svg";
 import Icon2 from "assets/icons/Ellipse-2.svg";
 import Icon3 from "assets/icons/Ellipse-3.svg";
-import "./Feedback.scss";
 import FeedbackCard from "components/FeedbackCard/FeedbackCard";
-
-export interface IFeedbackCard {
-  name: string;
-  position: string;
-  comment: string;
-  icon: string;
-}
+import { IFeedbackCard } from "types/feedback.types";
+import "./Feedback.scss";
 
 const cards: IFeedbackCard[] = [
   {
